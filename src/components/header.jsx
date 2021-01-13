@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Nav from './navbar'
 
 const StyledHeader = styled.header`
     background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/hero-1.jpg');
@@ -36,6 +37,7 @@ const StyledHeader = styled.header`
 export const Header = () => {
     return (
         <StyledHeader>
+            <Nav />
             <div className="hero-box">
                 <h1>Valley Area Music</h1>
                 <p>An independent record label founded by AR Viralz  in 2017 <br/> and based in Dehradun City, India.</p>
